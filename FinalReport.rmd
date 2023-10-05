@@ -91,8 +91,18 @@ With the white people, there are 65% of them who are in favor while 35% are oppo
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
-`
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+```{r}
+fisherXY (mydata$race,mydata$cappun, printAll=TRUE)
+```
+
+
+Based on the data above, we can say that 1300 white individuals favors capital punishment, whereas 697 were against it. Among other ethnic groups, 138 were in favor, and 112 were opposed. In the black population, 191 individuals favored capital punishment, while 257 were against it. The FisherXY test results indicate significant differences between each racial group, making all t-test results statistically significant. 
 
 ## More data version
 
