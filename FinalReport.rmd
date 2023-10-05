@@ -43,6 +43,12 @@ mutate(across(where(is.character), as.factor))
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
 
+We are going to use the CandP helper files to compare two categorical data types cappun and race. Because this is a cat-cat problem we will first create a bar chart, then we will run fav states to show graphical and numerical results.
+
+$\Huge\chi^2=\sum\frac{(0-E)^2}{0}$
+
+For inferential results we are going to run a Chi-Squared test which will tell us if there is a difference in the data but not where. Normally we will use a fisher test to do this but in this case we have more than two facotrs in "race" so will will use the fisherXY function to run fisher tests for all combinations.
+
 # Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
