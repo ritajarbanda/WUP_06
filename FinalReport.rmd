@@ -30,20 +30,9 @@ mydata <- na.omit(mydata)
 Is attitude toward capitol punishment (cappun) independent of race (race)?
 If not, then whose view differs from whom??
 
-$H_0$ There are no significant differences in the data.  
-
-$H_A$ There are differences in the data.
-
-```{r eval=FALSE}
-mydata <- mydata %>%
-mutate(across(where(is.character), as.factor))
-``` 
-
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed for example subsetting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
-
-
 
 # Results
 
