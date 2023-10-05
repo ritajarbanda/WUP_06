@@ -110,3 +110,7 @@ Based on the data above, we can say that 1300 white individuals favors capital p
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+With the data given to us for each branch, we were given 2,867 data points versus the 2nd branch we were given around 800 data points. This only gave us one set of data that can be seen as significant since the 2nd data set given did not have enough information to allow for there to be a significance in the Fisher XY showing the differences. We were able to see that overall for both data sets, the white population had the highest amount of those favoring the capitol punishment with other population as the second highest and the black population as the lowest.   
+
+$H_A$ There are differences in the data.
